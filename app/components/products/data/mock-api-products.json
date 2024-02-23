@@ -1,0 +1,14 @@
+{
+    "products": [
+        {
+            "id":  1,
+            "name": "Product 1",
+            "price": 100,
+            "image": [
+                "https://cdn.mos.cms.futurecdn.net/gbho6bhS4xVL3gU2MVYx7U.jpg",
+                "https://helios-i.mashable.com/imagery/reviews/04xYfyZ1mk1LcppkgmbOzG5/hero-image.fill.size_1248x702.v1701668674.jpg",
+                "https://www.apple.com/newsroom/images/2023/10/apple-unveils-new-macbook-pro-featuring-m3-chips/article/Apple-MacBook-Pro-2up-231030_Full-Bleed-Image.jpg.large.jpg"
+            ]
+        }
+    ]
+}
