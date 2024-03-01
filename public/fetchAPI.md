@@ -26,3 +26,14 @@
     // if (error) {
     //     return <p> Error: {error} </p>
     // }
+
+
+    Technology Programming For Develop:
+    * For Front-end Web
+    -  ReactJS Framwork (HTML, CSS, JavaScript)
+    -  Tailwind CSS
+    * For Backend Web 
+    - NodeJS (express)
+    - XAMPP MySQL Store DataBase
+    * UI/UX
+    - Figma

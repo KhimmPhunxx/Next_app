@@ -1,7 +1,16 @@
 import type { Metadata } from "next";
 import { Outfit } from "next/font/google";
 import "./globals.css";
-import Navbar from "./components/navbar/page";
+import TopBar from "./components/navbar/top-bar";
+import Logo from "./components/navbar/logo";
+import InputSearch from "./components/navbar/input-search";
+import ComboBoxCate from "./components/navbar/combobox-cate";
+import ActionButton from "./components/navbar/action-buttons";
+import SelectCategory from "./components/navbar/select-category";
+import NavigationBar from "./components/navbar/navigation-bar";
+import BottomBar from "./components/bottombar/page";
+
+import { ThemeProvider } from "@/components/ui/theme-provider"; // Import the ThemeProvider
 
 const font = Outfit({ subsets: ["latin"] });
 
@@ -17,9 +26,29 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={font.className}>
-      <Navbar />
-        {children}
+    <body className={`${font.className} bg-gray-100 dark:bg-gray-900`}>
+        <ThemeProvider 
+        attribute="class"
+        defaultTheme="system"
+        > 
+          <div className="bg-gray-800 p-2.5 w-full px-4 md:px-6">
+            <TopBar />
+          </div>
+          <div className="flex z-40 sticky top-0 border-b px-5 bg-white dark:bg-black md:px-6 justify-between items-center mx-auto py-3">
+              <Logo />
+              <div className='flex space-x-2'>
+                <InputSearch />
+                <ComboBoxCate />
+              </div>
+              <ActionButton />
+          </div>
+          <div className="bg-white dark:bg-black border-b p-2.5 w-full px-4 md:px-6 hidden lg:flex justify-between ">
+            <SelectCategory />
+            <NavigationBar />
+          </div>
+          {children}
+          <BottomBar />
+        </ThemeProvider>
         </body>
     </html>
   );

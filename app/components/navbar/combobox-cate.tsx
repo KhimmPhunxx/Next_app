@@ -16,7 +16,7 @@ import { cn } from "@/lib/utils"
 
 function ComboBoxCate() {
   return (
-    <div>
+    <div className="hidden md:flex">
        <Select>
         <SelectTrigger className="w-[180px]">
         <SelectValue placeholder="Select a Category" />

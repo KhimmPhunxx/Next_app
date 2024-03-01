@@ -61,23 +61,23 @@ const components: { title: string, description: string, href: string }[] = [
 
 const NavigationBar = () => {
     return (
-      <NavigationMenu className="hidden md:flex">
+      <NavigationMenu className="hidden lg:flex">
         <NavigationMenuList className="space-x-8 text-[16px] text-gray-800 font-medium">
-         <NavigationMenuItem>
-            <Link href="/" legacyBehavior passHref>
+         <NavigationMenuItem className="text-gray-800 dark:text-white">
+            <Link href="/" legacyBehavior passHref >
               <NavigationMenuLink>
                 Home
               </NavigationMenuLink>
             </Link>
           </NavigationMenuItem>
-          <NavigationMenuItem>
+          <NavigationMenuItem className="text-gray-800 dark:text-white">
             <Link href="/about" legacyBehavior passHref>
               <NavigationMenuLink>
                 About
               </NavigationMenuLink>
             </Link>
           </NavigationMenuItem>
-          <NavigationMenuItem>
+          <NavigationMenuItem className="text-gray-800 dark:text-white">
             <NavigationMenuTrigger>Service</NavigationMenuTrigger>
             <NavigationMenuContent>
               <ul className="grid gap-3 p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
@@ -91,9 +91,9 @@ const NavigationBar = () => {
                       <div className="mb-2 mt-4 text-lg font-medium">
                         Khodedev.com
                       </div>
-                      <p className="text-sm leading-tight text-muted-foreground">
+                      <h1 className="text-sm leading-tight text-muted-foreground">
                         Re-usable components built using Radix UI and Tailwind CSS.
-                      </p>
+                      </h1>
                     </a>
                   </NavigationMenuLink>
                 </li>
@@ -109,7 +109,7 @@ const NavigationBar = () => {
               </ul>
             </NavigationMenuContent>
           </NavigationMenuItem>
-          <NavigationMenuItem>
+          <NavigationMenuItem className="text-gray-800 dark:text-white">
             <NavigationMenuTrigger>Components</NavigationMenuTrigger>
             <NavigationMenuContent>
               <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
@@ -124,6 +124,20 @@ const NavigationBar = () => {
                 ))}
               </ul>
             </NavigationMenuContent>
+          </NavigationMenuItem>
+          <NavigationMenuItem className="text-gray-800 dark:text-white">
+            <Link href="/" legacyBehavior passHref>
+              <NavigationMenuLink>
+                Home
+              </NavigationMenuLink>
+            </Link>
+          </NavigationMenuItem>
+          <NavigationMenuItem className="text-gray-800 dark:text-white">
+            <Link href="/" legacyBehavior passHref>
+              <NavigationMenuLink>
+                Home
+              </NavigationMenuLink>
+            </Link>
           </NavigationMenuItem>
         </NavigationMenuList>
       </NavigationMenu>

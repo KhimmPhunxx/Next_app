@@ -13,10 +13,10 @@ import { CgMenuLeftAlt } from "react-icons/cg";
 
 const SelectCategory = () => {
     return (
-        <div>
+        <div className="hidden md:flex">
             <Select>
-              <SelectTrigger className="w-[180px]">
-                <CgMenuLeftAlt />
+              <SelectTrigger className="w-[300px]">
+                <CgMenuLeftAlt className="text-3xl font-bold" />
                 <SelectValue placeholder="Select a Category" />
               </SelectTrigger>
               <SelectContent>

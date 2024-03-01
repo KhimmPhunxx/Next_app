@@ -1,11 +1,12 @@
 
 import React from 'react'
-import Navbar from '../../components/navbar/page'
 
 function Page() {
   return (
     <div className='w-24 h-[1000px] bg-blue-300'>
         About Page
+        <img src="" alt="" />
+        <img src="" alt="" />
     </div>
   )
 }

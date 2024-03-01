@@ -12,9 +12,8 @@ interface Product {
 }
 
 const Products: React.FC = () => {
-
+  
   const dataApi: Product[] = mockData.products
-
   return (
     <div className='text-gray-500 w-56 h-56 border rounded-lg'>
       <ul>
