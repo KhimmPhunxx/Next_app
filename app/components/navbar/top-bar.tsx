@@ -19,9 +19,9 @@ function TopBar() {
             </select>
             <div>
                 <div className='flex space-x-3 md:space-x-5'>
-                    <FaTwitter className='text-gray-200 mt-1 text-sm' />
-                    <FaFacebookSquare className='text-gray-200 mt-1 text-sm' />
-                    <FaInstagram className='text-gray-200 mt-1 text-sm' />
+                    <FaTwitter className='text-gray-200 mt-1 text-sm cursor-pointer' />
+                    <FaFacebookSquare className='text-gray-200 mt-1 text-sm cursor-pointer' />
+                    <FaInstagram className='text-gray-200 mt-1 text-sm cursor-pointer' />
                 </div>
             </div>
         </div>

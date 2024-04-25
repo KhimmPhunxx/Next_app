@@ -10,9 +10,6 @@ import {
     SelectValue,
   } from "@/components/ui/select02"
 
-import { CgMenuLeftAlt } from "react-icons/cg";
-
-import { cn } from "@/lib/utils"
 
 function ComboBoxCate() {
   return (

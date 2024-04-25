@@ -1,0 +1,70 @@
+{
+    "product_deal1": [
+        {
+            "id": 1,
+            "name": "Silver High Neck Sweater",
+            "price": 210.00,
+            "rate": 4,
+            "desc": "",
+            "image": "https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FFashion%2FClothes%2F1.SilverHighNeckSweater.png&w=384&q=75" 
+        },
+        {
+            "id": 2,
+            "name": "Black High Neck Sweater",
+            "price": 110.00,
+            "rate": 4,
+            "desc": "",
+            "image": "https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FFashion%2FClothes%2F21.YellowCasualSweater.png&w=384&q=75" 
+        },
+        {
+            "id": 3,
+            "name": "Blue High Neck Sweater",
+            "price": 140.00,
+            "rate": 4,
+            "desc": "",
+            "image": "https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FFashion%2FClothes%2F4.DenimBlueJeans.png&w=384&q=75" 
+        },
+        {
+            "id": 4,
+            "name": "Grey High Neck Sweater",
+            "price": 180.00,
+            "rate": 4,
+            "desc": "",
+            "image": "https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FFashion%2FClothes%2F19.BlackWhiteSweater.png&w=384&q=75" 
+        },
+        {
+            "id": 5,
+            "name": "Gray Overcoat Women",
+            "price": 110.00,
+            "rate": 4,
+            "desc": "",
+            "image": "https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FFashion%2FClothes%2F20.GrayOvercoatWomen.png&w=384&q=75" 
+        }
+    ],
+    "product_deal2": [
+        {
+            "id": 1,
+            "name": "Women fashion",
+            "price": 140.00,
+            "rate": 4,
+            "desc": "",
+            "image": "https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FFashion%2FClothes%2F24.OliveCasualSweater.png&w=384&q=75"
+        },
+        {
+            "id": 2,
+            "name": "Nike Red Shoes",
+            "price": 210.00,
+            "rate": 4,
+            "desc": "",
+            "image": "https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FFashion%2FShoes%2F1.Nike%20Red.png&w=384&q=75"
+        },
+        {
+            "id": 3,
+            "name": "North Star Blue Shoes",
+            "price": 110.00,
+            "rate": 4,
+            "desc": "",
+            "image": "https://bazaar.ui-lib.com/_next/image?url=%2Fassets%2Fimages%2Fproducts%2FFashion%2FShoes%2F21.NorthStarBlue.png&w=384&q=75"
+        }
+    ]
+}

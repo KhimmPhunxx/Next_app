@@ -11,8 +11,11 @@ import NavigationBar from "./components/navbar/navigation-bar";
 import BottomBar from "./components/bottombar/page";
 
 import { ThemeProvider } from "@/components/ui/theme-provider"; // Import the ThemeProvider
+import Footer from "./components/footer/Footer";
 
 const font = Outfit({ subsets: ["latin"] });
+
+
 
 export const metadata: Metadata = {
   title: "E-Commerce Web App",
@@ -32,21 +35,29 @@ export default function RootLayout({
         defaultTheme="system"
         > 
           <div className="bg-gray-800 p-2.5 w-full px-4 md:px-6">
-            <TopBar />
+            <div className=" max-w-7xl mx-auto">
+              <TopBar  />
+            </div>
+           
           </div>
-          <div className="flex z-40 sticky top-0 border-b px-5 bg-white dark:bg-black md:px-6 justify-between items-center mx-auto py-3">
-              <Logo />
-              <div className='flex space-x-2'>
-                <InputSearch />
-                <ComboBoxCate />
+          <div className="w-full z-40 sticky top-0 border-b px-5 bg-white dark:bg-black md:px-6 mx-auto py-3">
+              <div className="max-w-7xl mx-auto justify-between items-center flex">
+                <Logo />
+                <div className='flex space-x-2'>
+                  <InputSearch />
+                  <ComboBoxCate />
+                </div>
+                <ActionButton />
               </div>
-              <ActionButton />
           </div>
-          <div className="bg-white dark:bg-black border-b p-2.5 w-full px-4 md:px-6 hidden lg:flex justify-between ">
-            <SelectCategory />
-            <NavigationBar />
+          <div className="bg-white dark:bg-black border-b p-2.5 w-full hidden lg:block">
+            <div className=" max-w-7xl mx-auto hidden lg:flex justify-between">
+              <SelectCategory />
+              <NavigationBar />
+            </div>
           </div>
           {children}
+          <Footer />
           <BottomBar />
         </ThemeProvider>
         </body>

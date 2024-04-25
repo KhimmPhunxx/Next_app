@@ -2,7 +2,6 @@ import React from 'react'
 
 import { FaHome } from "react-icons/fa";
 
-
 function MenubarBottom() {
   return (
     <div className='w-full md:hidden bg-gray-900 dark:bg-gray-100 bottom-0 fixed mb-0'>
